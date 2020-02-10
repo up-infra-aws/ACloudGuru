@@ -1,0 +1,18 @@
+1: Install GIT
+	yum install git -y
+2: Initialize GIT Repo
+	git init RepoName
+	Ex: git init ACloudGuru-Repo
+3: Add Configuration(Global)
+	git config --global user.name "UserName"
+	git config --global user.email "User@email"
+4: Add Files to Stagging area
+	git add filename
+5: Commit All the changes to GIT local repo
+	git commit -m "Message"	(Where -m flag stand for message)
+6: Add Remote repo to local repo
+	git remote add origin "Remote origin name with URL"
+7: Push changes to remote repo
+	git push -u origin master
+	/ git push 
+	/ git push -u origin <Branch Name> 
